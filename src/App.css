@@ -1,0 +1,123 @@
+.App {
+  text-align: center;
+  font-family: "League Spartan", sans-serif;
+  /* background: linear-gradient(180deg, rgba(234,236,255,1) 0%, rgba(59,111,105,1) 100%); */
+  background: url("./page/image/mike.jpg") bottom center;
+  min-height: 100%;
+  padding-bottom: 2.75rem;
+}
+
+.navbar-github {
+  padding: 0;
+  margin: auto 0;
+}
+.navbar-github img {
+  background-color: #dee2e6;
+  border-radius: 50%;
+}
+
+/* --- Footer --- */
+.footer-container {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #212529;
+  padding: 0.6rem;
+}
+
+.footer-container p {
+  color: azure;
+  margin: 0;
+}
+
+/*--- Home ---*/
+.home-container {
+  min-height: calc(100vh - 5.75rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.home-img {
+  border: 0px solid #dee2e6;
+  border-radius: 50%;
+  padding: 0;
+}
+
+.home-text p {
+  padding: 0;
+  margin: 0;
+}
+
+/* --- Experience --- */
+.vertical-timeline {
+  min-height: calc(100vh - 5.75rem);
+}
+
+.vertical-timeline-element--work {
+  text-align: left;
+}
+
+.vertical-timeline-element--work .vertical-timeline-element-content {
+  border-top: 3px solid #533E85;
+}
+
+/* --- Education --- */
+.vertical-timeline-element--education {
+  text-align: left;
+}
+
+.vertical-timeline-element--education .vertical-timeline-element-content {
+  border-top: 3px solid #74959A;
+}
+
+/* --- Skills --- */
+.skills-main-container {
+  min-height: calc(100vh - 5.75rem);
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+  padding: 2rem;
+  width: 100%;
+}
+
+.skills-img {
+  border: 0px solid #dee2e6;
+  border-radius: 0.4rem;
+  padding: 0;
+  background-color: unset;
+  margin: 0 0.7rem;
+}
+
+/* --- Project --- */
+.project-container {
+  min-height: calc(100vh - 5.75rem);
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+}
+
+.project-card {
+  width: 20rem;
+  height: 16rem;
+  background-color: rgba(255, 255, 255, 0.85);
+}
+
+.project-button {
+  margin-top: auto;
+  margin-bottom: 0;
+}
+
+.project-tool {
+  display: inline-block;
+  margin-right: 0.3rem;
+  padding: 0 0.5rem;
+  border-radius: 1rem;
+  min-width: 3.5rem;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+}
