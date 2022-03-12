@@ -16,9 +16,9 @@ function Navtab() {
       expand="md"
     >
       <Container fluid className="m-0 p-0">
-        <Navbar.Brand className="p-1 mx-1 my-0">
+        <Navbar.Brand className="nav-brand">
           <Image className="mx-1" width="32px" src={navLogo} />
-          {/* Dev'z */}
+          <p>My Profile</p>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav mx-2" />
         <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">

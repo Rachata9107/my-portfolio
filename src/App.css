@@ -1,16 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&display=swap');
+
 .App {
+  background: url("./asset/wallpaper.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100%;
+  padding-bottom: 2.4rem;
   text-align: center;
   font-family: "League Spartan", sans-serif;
-  /* background: linear-gradient(180deg, rgba(234,236,255,1) 0%, rgba(59,111,105,1) 100%); */
-  background: url("./page/image/mike.jpg") bottom center;
-  min-height: 100%;
-  padding-bottom: 2.75rem;
+}
+
+.nav-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem
+}
+
+.nav-brand p {
+  margin: 0;
+  padding: 5px 0 0 0;
 }
 
 .navbar-github {
   padding: 0;
   margin: auto 0;
 }
+
 .navbar-github img {
   background-color: #dee2e6;
   border-radius: 50%;
@@ -33,15 +50,28 @@
 /*--- Home ---*/
 .home-container {
   min-height: calc(100vh - 5.75rem);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  display: grid;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.home-motion {
+  width: 100%;
+  max-width: 35rem;
+  margin: auto;
+}
+
+.home-content {
+  background-color: rgba(255, 255, 255, 0);
+  padding: 1rem;
+  border: none;
 }
 
 .home-img {
   border: 0px solid #dee2e6;
   border-radius: 50%;
   padding: 0;
+  width: 24rem;
 }
 
 .home-text p {
@@ -74,11 +104,30 @@
 /* --- Skills --- */
 .skills-main-container {
   min-height: calc(100vh - 5.75rem);
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center; */
+  display: grid;
   padding: 2rem;
   width: 100%;
+}
+
+.skills-card {
+  width: 100%;
+  max-width: 44rem;
+  min-height: 29.3rem;
+  background-color: rgba(185, 185, 185, 0.5);
+  margin: auto;
+  padding: 1rem;
+}
+
+.sklils-nav-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0.5rem;
+}
+
+.sklils-nav-button h6 {
+  margin: 0;
+  padding: 0;
 }
 
 .skills-img {
@@ -87,6 +136,15 @@
   padding: 0;
   background-color: unset;
   margin: 0 0.7rem;
+}
+
+.skills-lottie {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  height: 300px;
+  overflow: hidden;
 }
 
 /* --- Project --- */
