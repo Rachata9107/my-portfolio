@@ -17,9 +17,7 @@
     "react-dom": "^17.0.2",
     "react-icons": "^4.3.1",
     "react-router-dom": "^6.2.1",
-    "react-vertical-timeline-component": "^3.5.2",
-    "tempa-xlsx": "^0.8.20",
-    "xlsx-style": "^0.8.13"
+    "react-vertical-timeline-component": "^3.5.2"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^1.0.7",
