@@ -11,9 +11,9 @@ function Skills() {
   return (
     <div className="skills-main-container">
       <Card className="skills-card">
-        <Nav justify variant="pills">
+        <Nav justify variant="pills" className="skills-nav-tab">
           {skillDetails.map((e, i) => (
-            <Nav.Item key={i} className="d-grid m-1">
+            <Nav.Item key={i} className="skills-nav-item">
               <Button
                 className="sklils-nav-button"
                 variant="outline-light"

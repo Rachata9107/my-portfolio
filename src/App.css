@@ -118,6 +118,11 @@
   padding: 1rem;
 }
 
+.skills-nav-item {
+  display: grid;
+  margin: 0.5rem;
+}
+
 .sklils-nav-button {
   display: flex;
   align-items: center;

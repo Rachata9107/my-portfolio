@@ -12,7 +12,7 @@ export const projectDetails = [
     buttonLink: [
       {
         title: "website",
-        link: "#",
+        link: "https://rct-dev.com/profile",
       },
       {
         title: "source code",
@@ -41,7 +41,7 @@ export const projectDetails = [
     buttonLink: [
       {
         title: "website",
-        link: "#",
+        link: "https://rct-dev.com/wtw",
       },
       {
         title: "source code",
@@ -189,7 +189,7 @@ export const projectDetails = [
   {
     title: "Water quality monitoring system",
     subTitle: "Final Project",
-    text: "Measure pH, TDS, Temp of water, can monitoring via mobile phone It is the study and application of the Iot system.",
+    text: "Measure pH, TDS, Temp of water, can monitoring via mobile phone It is the study and application of the IoT.",
     tool: [
       {
         title: "Arduino",

@@ -9,6 +9,7 @@ const githubLink = "https://github.com/Rachata9107";
 function Navtab() {
   return (
     <Navbar
+      collapseOnSelect
       className="p-1"
       bg="dark"
       variant="dark"
@@ -16,26 +17,26 @@ function Navtab() {
       expand="md"
     >
       <Container fluid className="m-0 p-0">
-        <Navbar.Brand className="nav-brand">
+        <Navbar.Brand className="nav-brand" href="#" as={Link} to="/">
           <Image className="mx-1" width="32px" src={navLogo} />
           <p>My Profile</p>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav mx-2" />
         <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
           <Nav>
-            <Nav.Link as={Link} to="/">
+            <Nav.Link href="#" as={Link} to="/">
               Home
             </Nav.Link>
-            <Nav.Link as={Link} to="/Experience">
+            <Nav.Link href="#" as={Link} to="/Experience">
               Experience
             </Nav.Link>
-            <Nav.Link as={Link} to="/Education">
+            <Nav.Link href="#" as={Link} to="/Education">
               Education
             </Nav.Link>
-            <Nav.Link as={Link} to="/Skills">
+            <Nav.Link href="#" as={Link} to="/Skills">
               Skills
             </Nav.Link>
-            <Nav.Link as={Link} to="/Project">
+            <Nav.Link href="#" as={Link} to="/Project">
               Project
             </Nav.Link>
             <Nav.Link className="navbar-github" target="_blank" href={githubLink}>

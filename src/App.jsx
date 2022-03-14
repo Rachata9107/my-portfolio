@@ -15,7 +15,7 @@ import Project from "./page/Project";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename={"/profile"}>
         <Navtab />
         <Routes>
           <Route path="/" element={<Home />} />
