@@ -1,7 +1,7 @@
 import React from "react";
 import { Button, Card, } from "react-bootstrap";
 import { motion, AnimatePresence } from "framer-motion";
-import { projectDetails } from '../asset/ProjectDetails';
+import { projectDetails } from '../assets/ProjectDetails';
 
 function Project() {
   return (

@@ -23,7 +23,7 @@ function Experience() {
                     I am working on the “B12 IIoT” Dashboard development team.
                 </p>
                 <ul>
-                    <li>Develop software for web service.</li>
+                    <li>Develop software for web servers.</li>
                     <li>Design RESTful APIs built in Node.js and PHP.</li>
                     <li>Database design and management.</li>
                     <li>Interface between hardware and software.</li>

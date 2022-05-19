@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import { Card, Container, Image } from "react-bootstrap";
 import { motion, AnimatePresence } from "framer-motion";
 import { Player } from '@lottiefiles/react-lottie-player';
-import webdeveloper from '../asset/webdeveloper.json';
-import pImg from "../asset/profile.jpg";
+import webdeveloper from '../assets/webdeveloper.json';
+import pImg from "../assets/profile.jpg";
 
 function Home() {
   const [showContent, setShowContent] = useState(false);
@@ -35,7 +35,7 @@ function Home() {
                         888/107 No.3 Bowin Sub-district, Sriracha District,
                         Chonburi 20230.
                       </p> */}
-                  (+66) 095 567 9717, Rachata.9107@gmail.com
+                  (+66) 095 567 9717, rachata.rongluan@gmail.com
                 </Card.Text>
               </Card.Body>
             </Card>

@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { Card, Nav, Image, ListGroup, Button, } from "react-bootstrap";
 import { motion, AnimatePresence } from "framer-motion";
-import { skillDetails } from '../asset/SkillDetails'
-import programming from '../asset/programming.json';
+import { skillDetails } from '../assets/SkillDetails'
+import programming from '../assets/programming.json';
 import { Player } from '@lottiefiles/react-lottie-player';
 
 function Skills() {
