@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import { Card, Nav, Image, ListGroup, Button, } from "react-bootstrap";
+import { Card, Nav, Image, ListGroup, Button } from "react-bootstrap";
 import { motion, AnimatePresence } from "framer-motion";
-import { skillDetails } from '../assets/SkillDetails'
-import programming from '../assets/programming.json';
-import { Player } from '@lottiefiles/react-lottie-player';
+import { skillDetails } from "../assets/SkillDetails";
+import programming from "../assets/animation/programming.json";
+import { Player } from "@lottiefiles/react-lottie-player";
 
 function Skills() {
   const [selectTab, setSelectTab] = useState({ logo: [] });
@@ -42,7 +42,10 @@ function Skills() {
                     <ListGroup.Item
                       className="p-3"
                       key={i}
-                      style={{ backgroundColor: `${i % 2 ? "#98B4AA" : "#74959A"}`, color: "#EEEEEE" }}
+                      style={{
+                        backgroundColor: `${i % 2 ? "#98B4AA" : "#74959A"}`,
+                        color: "#EEEEEE",
+                      }}
                     >
                       {e}
                     </ListGroup.Item>
@@ -61,12 +64,16 @@ function Skills() {
                     <Player
                       autoplay
                       speed={2.5}
-                      onEvent={event => event == "complete" ? setSelectTab(skillDetails[0]) : ""}
-                      src={programming} style={{ maxWidth: "600px", maxHeight: "600px" }}
-                    >
-                    </Player>
+                      onEvent={(event) =>
+                        event == "complete" ? setSelectTab(skillDetails[0]) : ""
+                      }
+                      src={programming}
+                      style={{ maxWidth: "600px", maxHeight: "600px" }}
+                    ></Player>
                   </div>
-                ) : <></>}
+                ) : (
+                  <></>
+                )}
               </div>
             </Card.Body>
           </motion.div>

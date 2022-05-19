@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import { Card, Container, Image } from "react-bootstrap";
+import { Card, Image } from "react-bootstrap";
 import { motion, AnimatePresence } from "framer-motion";
-import { Player } from '@lottiefiles/react-lottie-player';
-import webdeveloper from '../assets/webdeveloper.json';
-import pImg from "../assets/profile.jpg";
+import { Player } from "@lottiefiles/react-lottie-player";
+import webdeveloper from "../assets/animation/webdeveloper.json";
+import pImg from "../assets/image/profile.jpg";
 
 function Home() {
   const [showContent, setShowContent] = useState(false);
@@ -12,7 +12,7 @@ function Home() {
   return (
     <div className="home-container">
       <AnimatePresence exitBeforeEnter>
-        {showContent ?
+        {showContent ? (
           <motion.div
             className="home-motion"
             key={"home"}
@@ -23,7 +23,12 @@ function Home() {
           >
             <Card className="home-content" style={loaded}>
               <Card.Body className="p-3 text-white">
-                <Image onLoad={() => setLoaded({})} className="home-img" src={pImg} thumbnail />
+                <Image
+                  onLoad={() => setLoaded({})}
+                  className="home-img"
+                  src={pImg}
+                  thumbnail
+                />
                 <Card.Title className="mt-1">
                   <h1>Rachata Rongluan</h1>
                 </Card.Title>
@@ -40,7 +45,7 @@ function Home() {
               </Card.Body>
             </Card>
           </motion.div>
-          :
+        ) : (
           <motion.div
             className="home-lottie"
             key={"lottie"}
@@ -52,13 +57,14 @@ function Home() {
             <Player
               autoplay
               speed={2}
-              onEvent={event => event == "complete" ? setShowContent(true) : ""}
+              onEvent={(event) =>
+                event == "complete" ? setShowContent(true) : ""
+              }
               src={webdeveloper}
               style={{ maxWidth: "600px", maxHeight: "600px" }}
-            >
-            </Player>
+            ></Player>
           </motion.div>
-        }
+        )}
       </AnimatePresence>
     </div>
   );

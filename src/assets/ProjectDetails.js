@@ -1,7 +1,7 @@
 export const projectDetails = [
   {
     title: "My Profile",
-    subTitle: "Front-end, Back-end",
+    subTitle: "Frontend",
     text: "A website to showcase my experience, education, talent and portfolio.",
     tool: [
       {
@@ -22,7 +22,7 @@ export const projectDetails = [
   },
   {
     title: "What to Watch",
-    subTitle: "Front-end, Back-end",
+    subTitle: "Frontend, Backend",
     text: "Website for Most Popular Movies from IMDb.",
     tool: [
       {
@@ -41,17 +41,46 @@ export const projectDetails = [
     buttonLink: [
       {
         title: "website",
-        link: "https://rct-dev.com/wtw",
+        link: "https://wtw.rct-dev.com/",
       },
       {
         title: "source code",
-        link: "https://github.com/Rachata9107/what-to-watch.git",
+        link: "https://github.com/Rachata9107/wtw-server-deploy.git",
+      },
+    ],
+  },
+  {
+    title: "URL Shortener",
+    subTitle: "Frontend, Backend",
+    text: "Website for shortening URLs.",
+    tool: [
+      {
+        title: "React",
+        color: "#5FD5F5",
+      },
+      {
+        title: "Node.js",
+        color: "#4CAF50",
+      },
+      {
+        title: "MySQL",
+        color: "#E88F20",
+      },
+    ],
+    buttonLink: [
+      {
+        title: "website",
+        link: "https://url-rct.herokuapp.com/shortener/",
+      },
+      {
+        title: "source code",
+        link: "https://github.com/Rachata9107/url-shortener-full.git",
       },
     ],
   },
   {
     title: "Car Reservation Service",
-    subTitle: "Back-end",
+    subTitle: "Backend",
     text: "Website for booking a car within the company.",
     tool: [
       {
@@ -70,7 +99,7 @@ export const projectDetails = [
     buttonLink: [
       {
         title: "website",
-        link: "http://3.1.29.26/crs",
+        link: "#",
       },
       {
         title: "source code",
@@ -79,29 +108,8 @@ export const projectDetails = [
     ],
   },
   {
-    title: "Covid Report",
-    subTitle: "Front-end, Back-end",
-    text: "A website for reporting the status of coronavirus infection (COVID-19) in Thailand.",
-    tool: [
-      {
-        title: "React",
-        color: "#5FD5F5",
-      },
-    ],
-    buttonLink: [
-      {
-        title: "website",
-        link: "https://pknzpknz.000webhostapp.com/covid-report/",
-      },
-      {
-        title: "source code",
-        link: "https://github.com/Rachata9107/covid-report.git",
-      },
-    ],
-  },
-  {
     title: "Vender Covid",
-    subTitle: "Back-end",
+    subTitle: "Backend",
     text: "Website for approval to enter the company.",
     tool: [
       {
@@ -120,7 +128,7 @@ export const projectDetails = [
     buttonLink: [
       {
         title: "website",
-        link: "http://3.1.29.26/vendercovid/client/index.php",
+        link: "#",
       },
       {
         title: "source code",
@@ -130,7 +138,7 @@ export const projectDetails = [
   },
   {
     title: "IIoT B12",
-    subTitle: "Back-end",
+    subTitle: "Backend",
     text: "Pilot Project for Industry 4.0 Applications.",
     tool: [
       {
@@ -159,7 +167,7 @@ export const projectDetails = [
   },
   {
     title: "Locker Management",
-    subTitle: "Back-end",
+    subTitle: "Backend",
     text: "Website for managing lockers of employees in the company.",
     tool: [
       {
